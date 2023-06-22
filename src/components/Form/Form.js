@@ -51,6 +51,7 @@ const Form = (props) => {
             onChange={(e) => setCurrentSavings(e.target.value)}
             type="number"
             id="current-savings"
+            value={currentSavings}
           />
         </p>
         <p>
@@ -59,6 +60,7 @@ const Form = (props) => {
             onChange={(e) => setYearlyContribution(e.target.value)}
             type="number"
             id="yearly-contribution"
+            value={yearlyContribution}
           />
         </p>
       </div>
@@ -71,6 +73,7 @@ const Form = (props) => {
             onChange={(e) => setExpectedReturn(e.target.value)}
             type="number"
             id="expected-return"
+            value={expectedReturn}
           />
         </p>
         <p>
@@ -79,6 +82,7 @@ const Form = (props) => {
             onChange={(e) => setDuration(e.target.value)}
             type="number"
             id="duration"
+            value={duration}
           />
         </p>
       </div>
